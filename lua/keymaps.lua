@@ -32,6 +32,6 @@ keymap.set("n", "<c-j>", "<C-w>j", opts)
 keymap.set("n", "<c-h>", "<C-w>h", opts)
 keymap.set("n", "<c-l>", "<C-w>l", opts)
 
--- keymap.set("n", "<C-n>", "<cmd>NvimTreeToggle<CR>", opts)
+-- nvim-neo-tree
 -- keymap.set("n", "<leader>bf", ":Neotree toggle buffers reveal float<CR>", opts)
 keymap.set("n", "<C-n>", ":Neotree toggle filesystem reveal right<CR>", opts)

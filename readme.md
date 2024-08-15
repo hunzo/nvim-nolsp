@@ -8,3 +8,5 @@
 - todo-comment
 - tree-sitter
 - colorschemes (neosolarized)
+- autocomplete
+- indent-blank-line
