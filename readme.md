@@ -5,6 +5,6 @@
 - lualine
 - nvim-neo-tree
 - telescope
-- todo-conmment
+- todo-comment
 - tree-sitter
 - colorschemes (neosolarized)
