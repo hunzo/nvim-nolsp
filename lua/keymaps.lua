@@ -3,15 +3,15 @@ local g = vim.g
 local keymap = vim.keymap
 
 -- Basic editor settings
-opt.expandtab = true       -- Use spaces instead of tabs
-opt.tabstop = 2            -- Number of spaces that a <Tab> in the file counts for
-opt.softtabstop = 2        -- Number of spaces that a <Tab> counts for while performing editing operations
-opt.shiftwidth = 2         -- Size of an indent
-opt.relativenumber = true  -- Show relative line numbers
-opt.number = true          -- Show absolute line number on current line
-opt.signcolumn = "yes"    -- Always show the signcolumn
-opt.termguicolors = true   -- Enable 24-bit RGB colors
-opt.wrap = false           -- Disable line wrap
+opt.expandtab = true -- Use spaces instead of tabs
+opt.tabstop = 2 -- Number of spaces that a <Tab> in the file counts for
+opt.softtabstop = 2 -- Number of spaces that a <Tab> counts for while performing editing operations
+opt.shiftwidth = 2 -- Size of an indent
+opt.relativenumber = true -- Show relative line numbers
+opt.number = true -- Show absolute line number on current line
+opt.signcolumn = "yes" -- Always show the signcolumn
+opt.termguicolors = true -- Enable 24-bit RGB colors
+opt.wrap = false -- Disable line wrap
 
 -- Markdown indentation fix
 g.markdown_recommended_style = 0
@@ -78,4 +78,3 @@ keymap.set("n", "<leader>ff", "<cmd>Telescope find_files<CR>", { desc = "Find Fi
 keymap.set("n", "<leader>fr", "<cmd>Telescope oldfiles<CR>", { desc = "Recent Files" })
 keymap.set("n", "<leader>fs", "<cmd>Telescope live_grep<CR>", { desc = "Live Grep" })
 keymap.set("n", "<leader>fc", "<cmd>Telescope grep_string<CR>", { desc = "Grep String" })
-
