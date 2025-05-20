@@ -1,5 +1,6 @@
 vim.filetype.add({
   pattern = {
+    [".*/ansible/.*%.yml"] = "yaml.ansible",
     [".*/playbooks/.*%.yml"] = "yaml.ansible",
     [".*/roles/.*/tasks/.*%.yml"] = "yaml.ansible",
     [".*/handlers/.*%.yml"] = "yaml.ansible",
