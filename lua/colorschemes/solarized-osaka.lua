@@ -1,7 +1,7 @@
 return {
   "craftzdog/solarized-osaka.nvim",
   lazy = false,
-  priority = 999,
+  priority = 1000,
   config = function()
     require("solarized-osaka").setup({
 			transparent = false, -- Enable transparent background
