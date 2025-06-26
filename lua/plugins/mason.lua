@@ -31,7 +31,7 @@ return {
 				"autopep8",
 				"djlint",
 				"stylua",
-				"yamlfix",
+				"yamlfmt",
 				"nginx-config-formatter",
 				"jq",
 				"shfmt",
