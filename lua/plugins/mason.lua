@@ -24,48 +24,19 @@ return {
 			},
 		})
 
-		-- ========== Setup mason-lspconfig ==========
-		-- mason_lspconfig.setup({
-		-- 	ensure_installed = {
-		-- 		-- LSP Servers
-		-- 		"tailwindcss",
-		-- 		"ts_ls", -- ✅ แทน tsserver ที่ถูก deprecate แล้ว
-		-- 		"gopls",
-		-- 		"pyright@1.1.377",
-		-- 		"emmet_ls",
-		-- 		"html",
-		-- 		"lua_ls",
-		-- 		"yamlls",
-		-- 		"denols",
-		-- 		"dockerls",
-		-- 		"bashls",
-		-- 		"jsonls",
-		-- 		"cssls",
-		-- 		"ansiblels",
-		-- 	},
-		-- 	automatic_enable = true,
-		-- 	automatic_installation = true,
-		-- })
-
 		-- ========== Setup mason-tool-installer ==========
 		mason_tool_installer.setup({
 			ensure_installed = {
 				-- Formatters
 				"autopep8",
 				"djlint",
-				"eslint_d",
-				"prettierd",
 				"stylua",
-				"gofumpt",
-				"golines",
-				"sqlfmt",
-				"yamlfmt",
-				"beautysh",
+				"yamlfix",
 				"nginx-config-formatter",
+				"jq",
 
 				-- Linters
 				"ruff",
-				"golangci-lint",
 				"ansible-lint",
 			},
 		})
