@@ -34,6 +34,8 @@ return {
 				"yamlfix",
 				"nginx-config-formatter",
 				"jq",
+				"shfmt",
+				"mdformat",
 
 				-- Linters
 				"ruff",

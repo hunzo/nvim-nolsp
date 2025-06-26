@@ -5,13 +5,13 @@ return {
 		local conform = require("conform")
 		conform.setup({
 			formatters_by_ft = {
-				javascript = { "prettierd" },
-				typescript = { "prettierd" },
-				javascriptreact = { "prettierd" },
-				typescriptreact = { "prettierd" },
-				css = { "prettierd" },
-				json = { "prettierd" },
-				markdown = { "prettierd" },
+				-- javascript = { "prettierd" },
+				-- typescript = { "prettierd" },
+				-- javascriptreact = { "prettierd" },
+				-- typescriptreact = { "prettierd" },
+				-- css = { "prettierd" },
+				json = { "jq" },
+				markdown = { "mdformat" },
 				yaml = { "yamlfix" },
 				-- yaml = { "yamlfmt" },
 				lua = { "stylua" },
@@ -19,6 +19,7 @@ return {
 				htmldjango = { "djlint" },
 				html = { "djlint" },
 				nginx = { "nginxfmt" },
+				sh = { "shfmt" },
 			},
 			format_on_save = true,
 			async = false,
