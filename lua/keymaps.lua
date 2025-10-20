@@ -71,7 +71,8 @@ keymap.set("n", "<C-Down>", "<C-w>-", opts)
 
 -- Plugin mappings
 -- Neo-Tree filesystem toggle
-keymap.set("n", "<C-n>", ":Neotree toggle filesystem reveal float<CR>", opts)
+-- keymap.set("n", "<C-n>", ":Neotree toggle filesystem reveal float<CR>", opts)
+keymap.set("n", "<C-n>", ":Neotree toggle filesystem reveal left<CR>", opts)
 
 -- Telescope
 keymap.set("n", "<leader>ff", "<cmd>Telescope find_files<CR>", { desc = "Find Files" })
