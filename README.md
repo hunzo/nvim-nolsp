@@ -1,13 +1,11 @@
-# my nvim config
+# Nvim No LSP
 
-## install
+## Requirements
 
-- golang
 - python
 - python-venv
-- nvm
 
-### shell install
+### Cleanup
 
 ```bash
 ./clean-install.sh
@@ -16,7 +14,7 @@
 ### install
 
 ```bash
-git clone https://github.com/hunzo/nvim ~/.config/nvim && nvim
+git clone https://github.com/hunzo/nvim-nolsp ~/.config/nvim; nvim
 ```
 
 ## CheckHealth
@@ -29,31 +27,4 @@ git clone https://github.com/hunzo/nvim ~/.config/nvim && nvim
 
 ```
 :TSUpdate
-```
-
-## prettier singleQuote no semi-colon
-
-- create file .prettierrc
-
-```json
-{
-  "singleQuote": true,
-  "semi": false
-}
-```
-
-## eslint
-
-- create file .eslintrc.json
-
-```json
-{
-  "env": {
-    "browser": true,
-    "es6": true
-  },
-  "parserOptions": {
-    "ecmaVersion": "latest"
-  }
-}
 ```
