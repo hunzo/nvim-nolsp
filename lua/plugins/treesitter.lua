@@ -3,7 +3,7 @@ return {
 	-- cmd = { "TSInstall", "TSBufEnable", "TSBufDisable", "TSModuleInfo" },
 	build = ":TSUpdate",
 	config = function()
-		require("nvim-treesitter.config").setup({
+		require("nvim-treesitter").setup({
 			ensure_installed = {
 				"lua",
 			},
